@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 1ch;
+    background-color: rgb(253, 253, 253);
+}
+.banner{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: flex-start;
+
+
+gap: 3px;
+background-color: rgb(23, 151, 255);
+}
+.banner img{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+}
+.catalogo{
+text-align: center;
+justify-content: center;
+align-items: center;
+display: flex;
+margin: 20px;
+border: 20px;
+
+}
+.produtos{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    
+
+}
+.produto{
+    border: 3px solid;
+    border-radius: 10px;
+}
+.produto img{
+    height: 250px;
+    width: 270px;
+}
+.rodape{
+    background-color: rgb(23, 151, 255);
+    padding: 70px;
+}
